@@ -34,7 +34,7 @@ jobs:
           rm -rf /opt-host/hostedtoolcache
           rm -rf /opt-host/az
           df -h
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Create build user
         run: |
           useradd -m build
