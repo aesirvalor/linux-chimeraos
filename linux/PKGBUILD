@@ -36,7 +36,7 @@ optdepends=(
 )
 options=('!strip')
 _srcname=kernel_src
-_source_url="https://github.com/aesirvalor/linux/archive/refs/tags/v6.1.92-r1.tar.gz"
+_source_url="https://github.com/aesirvalor/linux/archive/refs/tags/v6.1.81-r1-test.tar.gz"
 source=(
   $_source_url # the source for the kernel release
   config  # the main kernel config file
